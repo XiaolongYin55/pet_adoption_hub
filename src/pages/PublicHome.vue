@@ -8,7 +8,7 @@
     </header>
 
     <div class="content">
-      <img src="/images/public_home2.jpg" alt="">
+      <img src="/images/pet_adoption.jpg" alt="">
     </div>
 
     <footer class="footer">
