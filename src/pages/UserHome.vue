@@ -13,6 +13,7 @@
           <!-- <li><router-link to="/user/smartphones">Smartphones</router-link></li> -->
           <li><router-link to="/user/laptops">Products</router-link></li>
           <li><router-link to="/user/accessories">Pets</router-link></li>
+          <li><router-link to="/user/publish">Publish</router-link></li>
           <li><router-link to="/user/news">News</router-link></li>
           <li><router-link to="/user/cart">My Cart</router-link></li>
           <li><router-link to="/">Logout</router-link></li>

@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import PublicHome from '../pages/PublicHome.vue';
 import UserHome from '../pages/UserHome.vue'
 import UserNews from '@/pages/UserNews.vue';
+import UserPublish from '@/pages/UserPublish.vue';
 
 import AdminHome from '@/pages/AdminHome.vue';
 import Dashboard from '../pages/Dashboard.vue';
@@ -58,10 +59,15 @@ const routes = [
         name: 'Wearables',
         component: Wearables,
       },
-            {
+      {
         path: 'news',
         name: 'UserNews',
         component: UserNews,
+      },
+      {
+        path: 'publish',
+        name: 'UserPublish',
+        component: UserPublish,
       },
       {
         path: 'payment',
