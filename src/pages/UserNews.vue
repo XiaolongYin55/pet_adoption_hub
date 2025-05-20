@@ -37,7 +37,7 @@ const petNews = ref([
   },
   {
     date: '2025-05-16',
-    title: 'Free Spay and Neuter Services to Control Stray Population',
+    title: 'Free Spay and Neuter Services to Control Stray Population ',
     summary: 'Animal clinics and welfare groups are offering free sterilization services this month, promoting responsible pet ownership.',
   },
 ]);
