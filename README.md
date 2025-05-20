@@ -1,4 +1,4 @@
-# assignment01
+# pet_adoption_hub
 
 ## Project setup
 ```
