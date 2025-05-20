@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14",
+    "price": 999,
+    "brand": "Apple",
+    "quantity": 1,
+    "category": "smartphones",
+    "image": "p1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Galaxy S22",
+    "price": 799,
+    "brand": "Samsung",
+    "quantity": 1,
+    "category": "smartphones",
+    "image": "p2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pixel 6",
+    "price": 599,
+    "brand": "Google",
+    "quantity": 1,
+    "category": "smartphones",
+    "image": "p3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "OnePlus 9",
+    "price": 699,
+    "brand": "OnePlus",
+    "quantity": 1,
+    "category": "smartphones",
+    "image": "p4.jpg"
+  }
+]

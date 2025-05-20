@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "AirPods Pro",
+        "price": 249,
+        "brand": "Apple",
+        "quantity": 1,
+        "image": "e1.jpg",
+        "category": "accessories",
+        "totalPrice": 0
+    },
+    {
+        "id": 2,
+        "name": "Galaxy Buds Pro",
+        "price": 199,
+        "brand": "Samsung",
+        "quantity": 1,
+        "image": "e2.jpg",
+        "category": "accessories",
+        "totalPrice": 0
+    },
+    {
+        "id": 3,
+        "name": "Sony WH-1000XM4",
+        "price": 350,
+        "brand": "Sony",
+        "quantity": 1,
+        "image": "e3.jpg",
+        "category": "accessories",
+        "totalPrice": 0
+    },
+    {
+        "id": 4,
+        "name": "JBL Flip 5",
+        "price": 120,
+        "brand": "JBL",
+        "quantity": 1,
+        "image": "e4.jpg",
+        "category": "accessories",
+        "totalPrice": 0
+    }
+]

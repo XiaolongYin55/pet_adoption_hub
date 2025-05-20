@@ -1,0 +1,204 @@
+/* user-home.css */
+
+/* 全局变量 */
+:root {
+  --primary-color: #4361ee;
+  --secondary-color: #3f37c9;
+  --accent-color: #4cc9f0;
+  --light-gray: #f8f9fa;
+  --dark-gray: #343a40;
+  --white: #ffffff;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+/* 基础重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: var(--light-gray);
+}
+
+/* 头部样式 */
+header {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background-color: #141921;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--white);
+  box-shadow: var(--shadow);
+}
+
+header h2 {
+  color: white;
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* 主布局 */
+.layout {
+  display: flex;
+  min-height: calc(100vh - 120px); /* 减去页头和页脚高度 */
+}
+
+/* 侧边栏 */
+.sidebar {
+  width: 250px;
+  background-color: #1e2b3d;;
+  padding: 1.5rem 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+    height: 545px;
+  z-index: 5;
+}
+
+.sidebar ul {
+  list-style: none;
+      position: relative;
+    top: 42px;
+    color: white;
+}
+
+.sidebar li {
+  margin-bottom: 0.8rem;
+  transition: var(--transition);
+
+}
+
+.sidebar li:hover {
+  transform: translateX(5px);
+}
+
+.sidebar a {
+  display: block;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  color: var(--dark-gray);
+  border-radius: 5px;
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.sidebar a:hover, 
+.sidebar a.router-link-active {
+  background-color: rgba(67, 97, 238, 0.1);
+  color: var(--primary-color);
+}
+
+.sidebar a.router-link-active {
+  border-left: 4px solid var(--primary-color);
+}
+
+/* 主要内容区 */
+.content {
+  flex: 1;
+  /* padding: 2rem; */
+  /* background-color: var(--white); */
+  /* margin: 1rem; */
+  /* border-radius: 8px; */
+    height: 545px;
+  box-shadow: var(--shadow);
+  background-color: #f3f3f4;
+
+
+}
+
+/* 产品列表样式 */
+.product-list {
+  padding: 1rem;
+  position: relative;
+  bottom: -13px;
+  right: -11px;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+th, td {
+
+  padding: 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: rgba(137, 134, 134, 0.184);
+  color: var(--white);
+  font-weight: bold; /* 加粗字体 */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+}
+
+td {
+  background-color: var(--white);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+tr:hover td {
+  background-color: rgba(67, 97, 238, 0.05);
+}
+
+/* 图片样式 */
+.image {
+  height: 60px;
+  width: auto;
+  border-radius: 4px;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+/* 按钮样式 */
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #FFD814;
+  /* color: var(--white); */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 页脚样式 */
+.footer {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  padding: 1rem;
+  text-align: center;
+  color: var(--white);
+  position: fixed;
+    bottom: 82px;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 10; 
+}
+
+.footer p {
+  font-size: 0.9rem;
+  margin: 0;
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Apple Watch Series 7",
+        "price": 399,
+        "brand": "Apple",
+        "quantity": 1,
+        "image": "w1.jpg",
+        "category": "wearables",
+        "totalPrice": 0
+    },
+    {
+        "id": 2,
+        "name": "Galaxy Watch 4",
+        "price": 249,
+        "brand": "Samsung",
+        "quantity": 1,
+        "image": "w2.jpg",
+        "category": "wearables",
+        "totalPrice": 0
+    },
+    {
+        "id": 3,
+        "name": "Fitbit Charge 5",
+        "price": 179,
+        "brand": "Fitbit",
+        "quantity": 1,
+        "image": "w3.jpg",
+        "category": "wearables",
+        "totalPrice": 0
+    },
+    {
+        "id": 4,
+        "name": "Garmin Venu 2",
+        "price": 399,
+        "brand": "Garmin",
+        "quantity": 1,
+        "image": "w4.jpg",
+        "category": "wearables",
+        "totalPrice": 0
+    }
+]

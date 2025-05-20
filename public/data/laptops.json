@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "MacBook Pro",
+        "price": 1299,
+        "brand": "Apple",
+        "quantity": 1,
+        "image": "l1.jpg",
+        "category": "laptops",
+        "totalPrice": 0
+    },
+    {
+        "id": 2,
+        "name": "Dell XPS 13",
+        "price": 1099,
+        "brand": "Dell",
+        "quantity": 1,
+        "image": "l2.jpg",
+        "category": "laptops",
+        "totalPrice": 0
+    },
+    {
+        "id": 3,
+        "name": "HP Spectre x360",
+        "price": 1199,
+        "brand": "HP",
+        "quantity": 1,
+        "image": "l3.jpg",
+        "category": "laptops",
+        "totalPrice": 0
+    },
+    {
+        "id": 4,
+        "name": "Surface Laptop 4",
+        "price": 1299,
+        "brand": "Microsoft",
+        "quantity": 1,
+        "image": "l4.jpg",
+        "category": "laptops",
+        "totalPrice": 0
+    }
+]
