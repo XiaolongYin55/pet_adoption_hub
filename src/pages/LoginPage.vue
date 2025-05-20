@@ -2,12 +2,12 @@
 <template>
   <div class="login-container">
     <header class="header">
-      <h1>MyCartExpress</h1>
+      <h1>Pet Adoption Hub</h1>
     </header>
 
     <div class="login-content">
       <div class="login-box">
-        <h2>Welcome Back</h2>
+        <h2>Welcome</h2>
         <form @submit.prevent="login">
           <div class="form-group">
             <label for="username">Username</label>

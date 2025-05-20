@@ -7,7 +7,7 @@
           <th>Image</th>
           <th>Name</th>
           <th>Price</th>
-          <th>Brand</th>
+          <th>Type</th>
           <th>FREE Delivery</th>
           <th>Action</th>
         </tr>

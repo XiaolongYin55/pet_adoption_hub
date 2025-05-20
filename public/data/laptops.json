@@ -1,42 +1,42 @@
 [
     {
         "id": 1,
-        "name": "MacBook Pro",
-        "price": 1299,
-        "brand": "Apple",
+        "name": "Premium Cat Food",
+        "price": 29,
+        "brand": "Brit",
         "quantity": 1,
-        "image": "l1.jpg",
-        "category": "laptops",
+        "image": "CatFood.jpg",
+        "category": "pet_food",
         "totalPrice": 0
     },
     {
         "id": 2,
-        "name": "Dell XPS 13",
-        "price": 1099,
-        "brand": "Dell",
+        "name": "Dog Chew Toy",
+        "price": 15,
+        "brand": "Kong",
         "quantity": 1,
-        "image": "l2.jpg",
-        "category": "laptops",
+        "image": "DogChewToy.jpg",
+        "category": "pet_toys",
         "totalPrice": 0
     },
     {
         "id": 3,
-        "name": "HP Spectre x360",
-        "price": 1199,
-        "brand": "HP",
+        "name": "Cat Tree Tower",
+        "price": 89,
+        "brand": "Feandrea",
         "quantity": 1,
-        "image": "l3.jpg",
-        "category": "laptops",
+        "image": "CatTreeTower.jpg",
+        "category": "pet_furniture",
         "totalPrice": 0
     },
     {
         "id": 4,
-        "name": "Surface Laptop 4",
-        "price": 1299,
-        "brand": "Microsoft",
+        "name": "Dog Bed",
+        "price": 45,
+        "brand": "Furhaven",
         "quantity": 1,
-        "image": "l4.jpg",
-        "category": "laptops",
+        "image": "DogBed.jpg",
+        "category": "pet_furniture",
         "totalPrice": 0
     }
 ]
