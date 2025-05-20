@@ -1,6 +1,6 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    test1234
+    test12345
   </div>
 </template>
