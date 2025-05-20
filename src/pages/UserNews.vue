@@ -32,7 +32,7 @@ const petNews = ref([
   },
   {
     date: '2025-05-17',
-    title: 'Community Introduces “Pets for Seniors” Pilot Program',
+    title: 'Community Introduces “Pets for Seniors” Pilot Program ',
     summary: 'A new initiative pairs friendly pets with elderly residents living alone to reduce loneliness and improve well-being.',
   },
   {

@@ -16,7 +16,7 @@
       <tbody>
         <tr v-for="item in smartphones" :key="item.id">
           <td>{{ item.id }}</td>
-          <td><img :src="`/images/${item.image}`" alt="item" width="50" /></td>
+          <td><img :src="`/images/${item.profile_image}`" alt="item" width="50px" /></td>
           <td>{{ item.name }}</td>
           <td>{{ item.age }}</td>
           <td>{{ item.role }}</td>
