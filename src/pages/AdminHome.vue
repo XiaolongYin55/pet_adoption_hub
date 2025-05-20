@@ -10,7 +10,7 @@
       <aside class="sidebar">
         <ul>
           <li><router-link to="/admin/smartphones">Users</router-link></li>
-          <li><router-link to="/admin/laptops">Products</router-link></li>
+          <li><router-link to="/admin/product">Products</router-link></li>
           <li><router-link to="/admin/news">News</router-link></li>
           <li><router-link to="/">Logout</router-link></li>
         </ul>
