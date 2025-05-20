@@ -10,6 +10,7 @@ import MyCartPage from '../pages/MyCartPage.vue';
 import PaymentPage from '@/pages/PaymentPage.vue';
 import LoginPage from '@/pages/LoginPage.vue';
 import Laptops from '@/product_pages/Laptops.vue';
+import AdminProduct from '@/product_pages/AdminProduct.vue';
 
 import Smartphones from '@/product_pages/Smartphones.vue';
 import Wearables from '@/product_pages/Wearables.vue';
@@ -32,7 +33,7 @@ const routes = [
     children: [
       {
         path: '',
-        redirect: 'smartphones'  // 默认跳转到 /user/smartphones
+        redirect: 'laptops'  // 默认跳转到 /user/smartphones
       },
       {
         path: 'cart',
@@ -54,6 +55,7 @@ const routes = [
         name: 'Accessories',
         component: Accessories,
       },
+
       {
         path: 'wearables',
         name: 'Wearables',
@@ -108,6 +110,11 @@ const routes = [
         path: 'wearables',
         name: 'AdminWearables',
         component: Wearables,
+      },
+      {
+        path: 'product',
+        name: 'AdminProduct',
+        component: AdminProduct,
       },
       {
         path: 'news',
