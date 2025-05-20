@@ -25,20 +25,20 @@
 import { ref } from 'vue';
 
 const petNews = ref([
-  {
+{
     date: '2025-05-18',
-    title: 'New Pet Adoption Center Opens Downtown',
-    summary: 'A new center for pet adoption has opened, offering free vaccines for the first 100 pets.',
+    title: 'Volunteers Launch “Stray Animals Home” Campaign',
+    summary: 'Dozens of volunteers took to the streets this weekend to provide food and shelter for stray cats and dogs, encouraging adoption over buying.',
   },
   {
     date: '2025-05-17',
-    title: 'Top 10 Dog Breeds for Families in 2025',
-    summary: 'Experts share the best dog breeds for households with children and elderly.',
+    title: 'Community Introduces “Pets for Seniors” Pilot Program',
+    summary: 'A new initiative pairs friendly pets with elderly residents living alone to reduce loneliness and improve well-being.',
   },
   {
     date: '2025-05-16',
-    title: 'How to Keep Your Cat Healthy During Summer',
-    summary: 'Veterinarians recommend tips to keep your feline friends cool and hydrated.',
+    title: 'Free Spay and Neuter Services to Control Stray Population',
+    summary: 'Animal clinics and welfare groups are offering free sterilization services this month, promoting responsible pet ownership.',
   },
 ]);
 </script>
