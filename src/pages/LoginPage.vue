@@ -60,7 +60,7 @@ function login() {
     router.push('/admin/smartphones');
   } else {
     sessionStorage.setItem('username', username.value);
-    router.push('/user/smartphones');
+    router.push('/user/laptops');
   }
 }
 </script>
