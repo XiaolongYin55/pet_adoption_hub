@@ -2,7 +2,7 @@
 <template>
   <div class="public-home">
     <header class="header">
-      <h1>Welcome to MyCartExpress</h1>
+      <h1>Welcome to Pet Adoption Hub</h1>
                 <li><router-link to="/login">Sign In &nbsp; &nbsp;|</router-link></li>
                 <li><router-link to="/login">Sign Up</router-link></li>
     </header>
@@ -12,7 +12,7 @@
     </div>
 
     <footer class="footer">
-      <p>&copy; 2025 MyCartExpress. All rights reserved.</p>
+      <p>&copy; 2025 Pet Adoption Hub. All rights reserved.</p>
     </footer>
   </div>
 </template>

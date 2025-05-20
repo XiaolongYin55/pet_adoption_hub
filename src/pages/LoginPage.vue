@@ -49,9 +49,18 @@ const username = ref('');
 const password = ref('');
 
 function login() {
-  if (username.value) {
+  if (!username.value) {
+    alert('请输入用户名');
+    return;
+  }
+
+  // 简单判断用户名，admin跳到/admin，其它跳到/user
+  if (username.value.toLowerCase() === 'admin') {
     sessionStorage.setItem('username', username.value);
-    router.push('/user');
+    router.push('/admin/smartphones');
+  } else {
+    sessionStorage.setItem('username', username.value);
+    router.push('/user/smartphones');
   }
 }
 </script>

@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import PublicHome from '../pages/PublicHome.vue';
 import UserHome from '../pages/UserHome.vue'
+import UserNews from '@/pages/UserNews.vue';
+
+import AdminHome from '@/pages/AdminHome.vue';
 import Dashboard from '../pages/Dashboard.vue';
 import MyCartPage from '../pages/MyCartPage.vue';
 import PaymentPage from '@/pages/PaymentPage.vue';
@@ -10,7 +13,7 @@ import Laptops from '@/product_pages/Laptops.vue';
 import Smartphones from '@/product_pages/Smartphones.vue';
 import Wearables from '@/product_pages/Wearables.vue';
 import Accessories from '@/product_pages/Accessories.vue';
-
+import AdminNews from '@/pages/AdminNews.vue';
 const routes = [
   {
     path: '/',
@@ -28,7 +31,7 @@ const routes = [
     children: [
       {
         path: '',
-        redirect: 'user/smartphones' // 默认跳转到 laptops
+        redirect: 'smartphones'  // 默认跳转到 /user/smartphones
       },
       {
         path: 'cart',
@@ -56,9 +59,54 @@ const routes = [
         component: Wearables,
       },
             {
+        path: 'news',
+        name: 'UserNews',
+        component: UserNews,
+      },
+      {
         path: 'payment',
         name: 'PaymentPage',
         component: PaymentPage,
+      },
+    ]
+  },
+  {
+    path: '/admin',
+    component: AdminHome,
+    children: [
+      {
+        path: '',
+        redirect: 'smartphones'  // 默认跳转到 /admin/smartphones
+      },
+      {
+        path: 'cart',
+        name: 'AdminMyCart',
+        component: MyCartPage,
+      },
+      {
+        path: 'smartphones',
+        name: 'AdminSmartphones',
+        component: Smartphones,
+      },
+      {
+        path: 'laptops',
+        name: 'AdminLaptops',
+        component: Laptops,
+      },
+      {
+        path: 'accessories',
+        name: 'AdminAccessories',
+        component: Accessories,
+      },
+      {
+        path: 'wearables',
+        name: 'AdminWearables',
+        component: Wearables,
+      },
+      {
+        path: 'news',
+        name: 'AdminNews',
+        component: AdminNews,
       },
     ]
   }

@@ -6,7 +6,7 @@
     "brand": "Apple",
     "quantity": 1,
     "category": "smartphones",
-    "image": "p1.jpg"
+    "image": "user1.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "brand": "Samsung",
     "quantity": 1,
     "category": "smartphones",
-    "image": "p2.jpg"
+    "image": "user2.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "brand": "Google",
     "quantity": 1,
     "category": "smartphones",
-    "image": "p3.jpg"
+    "image": "user3.jpg"
   },
   {
     "id": 4,
@@ -33,6 +33,6 @@
     "brand": "OnePlus",
     "quantity": 1,
     "category": "smartphones",
-    "image": "p4.jpg"
+    "image": "user4.jpg"
   }
 ]

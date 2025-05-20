@@ -20,7 +20,7 @@
           <td>${{ item.price }}</td>
           <td>{{ item.brand }}</td>
           <td>YES</td>
-          <td><button @click="addToCart(item)">Add to Cart</button></td>
+          <td><button @click="addToCart(item)">Adoption</button></td>
         </tr>
       </tbody>
     </table>

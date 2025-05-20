@@ -1,4 +1,3 @@
-
 <template>
   
   <div class="user-home">
@@ -10,11 +9,9 @@
       
       <aside class="sidebar">
         <ul>
-          <!-- <li><router-link to="/user/smartphones">Smartphones</router-link></li> -->
-          <li><router-link to="/user/laptops">Products</router-link></li>
-          <li><router-link to="/user/accessories">Pets</router-link></li>
-          <li><router-link to="/user/news">News</router-link></li>
-          <li><router-link to="/user/cart">My Cart</router-link></li>
+          <li><router-link to="/admin/smartphones">Users</router-link></li>
+          <li><router-link to="/admin/laptops">Products</router-link></li>
+          <li><router-link to="/admin/news">News</router-link></li>
           <li><router-link to="/">Logout</router-link></li>
         </ul>
       </aside>
@@ -25,7 +22,7 @@
     </div>
     
     <footer class="footer">
-      <p>&copy; 2025 Pet Adoption Hub. All rights reserved.</p>
+      <p>&copy; 2025 MyCartExpress. All rights reserved.</p>
     </footer>
   </div>
 </template>
@@ -38,4 +35,3 @@ const router = useRouter();
 </script>
 
 <style scoped src="@/assets/user-home.css"></style>
-

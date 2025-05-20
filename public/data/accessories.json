@@ -5,7 +5,7 @@
         "price": 249,
         "brand": "Apple",
         "quantity": 1,
-        "image": "e1.jpg",
+        "image": "dog1.jpg",
         "category": "accessories",
         "totalPrice": 0
     },
@@ -15,7 +15,7 @@
         "price": 199,
         "brand": "Samsung",
         "quantity": 1,
-        "image": "e2.jpg",
+        "image": "dog2.jpg",
         "category": "accessories",
         "totalPrice": 0
     },
@@ -25,7 +25,7 @@
         "price": 350,
         "brand": "Sony",
         "quantity": 1,
-        "image": "e3.jpg",
+        "image": "cat1.jpg",
         "category": "accessories",
         "totalPrice": 0
     },
@@ -35,7 +35,17 @@
         "price": 120,
         "brand": "JBL",
         "quantity": 1,
-        "image": "e4.jpg",
+        "image": "cat2.jpg",
+        "category": "accessories",
+        "totalPrice": 0
+    },
+        {
+        "id": 5,
+        "name": "JBL Flip 5",
+        "price": 120,
+        "brand": "JBL",
+        "quantity": 1,
+        "image": "bird1.jpg",
         "category": "accessories",
         "totalPrice": 0
     }
