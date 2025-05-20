@@ -1,52 +1,52 @@
 [
     {
         "id": 1,
-        "name": "AirPods Pro",
+        "name": "Buddy",
         "price": 249,
-        "brand": "Apple",
+        "brand": "Dog",
         "quantity": 1,
         "image": "dog1.jpg",
-        "category": "accessories",
+        "category": "dogs",
         "totalPrice": 0
     },
     {
         "id": 2,
-        "name": "Galaxy Buds Pro",
+        "name": "Max",
         "price": 199,
-        "brand": "Samsung",
+        "brand": "Dog",
         "quantity": 1,
         "image": "dog2.jpg",
-        "category": "accessories",
+        "category": "dogs",
         "totalPrice": 0
     },
     {
         "id": 3,
-        "name": "Sony WH-1000XM4",
+        "name": "Whiskers",
         "price": 350,
-        "brand": "Sony",
+        "brand": "Cat",
         "quantity": 1,
         "image": "cat1.jpg",
-        "category": "accessories",
+        "category": "cats",
         "totalPrice": 0
     },
     {
         "id": 4,
-        "name": "JBL Flip 5",
+        "name": "Luna",
         "price": 120,
-        "brand": "JBL",
+        "brand": "Cat",
         "quantity": 1,
         "image": "cat2.jpg",
-        "category": "accessories",
+        "category": "cats",
         "totalPrice": 0
     },
         {
         "id": 5,
-        "name": "JBL Flip 5",
+        "name": "Tweety",
         "price": 120,
-        "brand": "JBL",
+        "brand": "Bird",
         "quantity": 1,
         "image": "bird1.jpg",
-        "category": "accessories",
+        "category": "birds",
         "totalPrice": 0
     }
 ]
