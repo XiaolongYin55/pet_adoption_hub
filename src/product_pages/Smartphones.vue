@@ -5,11 +5,11 @@
       <thead>
         <tr>
           <th>Id</th>
-          <th>Image</th>
+          <th>Photo</th>
           <th>Name</th>
-          <th>Price</th>
-          <th>Brand</th>
-          <th>FREE Delivery</th>
+          <th>Age</th>
+          <th>Role</th>
+          <th>Member Since</th>
           <th>Action</th>
         </tr>
       </thead>
@@ -18,10 +18,10 @@
           <td>{{ item.id }}</td>
           <td><img :src="`/images/${item.image}`" alt="item" width="50" /></td>
           <td>{{ item.name }}</td>
-          <td>${{ item.price }}</td>
-          <td>{{ item.brand }}</td>
-          <td>YES</td>
-          <td><button @click="addToCart(item)">Add to Cart</button></td>
+          <td>{{ item.age }}</td>
+          <td>{{ item.role }}</td>
+          <td>{{ item.joined_date }}</td>
+          <td><button @click="addToCart(item)">Manage</button></td>
         </tr>
       </tbody>
     </table>
